@@ -36,13 +36,10 @@ export default function Home() {
         <div className="container mx-auto flex px-5 py-16 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
             <h1 className="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900">
-              Before they sold out
+              Lorem, ipsum dolor.
             </h1>
             <p className="mb-8 leading-relaxed">
-              Copper mug try-hard pitchfork pour-over freegan heirloom neutra
-              air plant cold-pressed tacos poke beard tote bag. Heirloom echo
-              park mlkshk tote bag selvage hot chicken authentic tumeric
-              truffaut hexagon try-hard chambray.
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consequuntur quibusdam animi doloribus aliquam asperiores sapiente beatae obcaecati dolor sint eveniet ab nihil laborum voluptas, soluta corporis neque perferendis voluptates quaerat enim libero nisi harum, quod aliquid. Porro veritatis, consectetur laboriosam perferendis, quam atque perspiciatis officiis repudiandae sit labore vero?
             </p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
@@ -60,7 +57,6 @@ export default function Home() {
                     <AiOutlineCloudDownload></AiOutlineCloudDownload>
                   </div>
                   <span>Download</span>
-                  <input type="file" className="hidden" />
                 </label>
               </button>
             </div>
@@ -70,7 +66,7 @@ export default function Home() {
             <img
               className="object-cover object-center rounded"
               alt="hero"
-              src="https://dummyimage.com/720x600"
+              src="Docx.jpg"
             />
           </div>
         </div>
@@ -88,11 +84,10 @@ export default function Home() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-extrabold title-font text-gray-900 mb-1 text-xl">
-                  Shooting Stars
+                  Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perspiciatis delectus qui autem dolor facilis illum. Aut sunt, provident odio officiis exercitationem facilis aliquam repellat doloremque minus mollitia enim eveniet, et perferendis, dicta facere nulla! Blanditiis quis et fugiat esse.
                 </p>
               </div>
             </div>
@@ -107,11 +102,10 @@ export default function Home() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-extrabold title-font text-gray-900 mb-1 text-xl">
-                  The Catalyzer
+                  Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi laborum iste non! Modi dicta architecto atque molestias eaque aspernatur labore voluptas nesciunt laboriosam! Quidem, labore aut sit odit minus quibusdam ratione nostrum eos nulla officiis, quia, vitae consequatur excepturi!
                 </p>
               </div>
             </div>
@@ -126,11 +120,10 @@ export default function Home() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-extrabold title-font text-gray-900 mb-1 text-xl">
-                  The 400 Blows
+                  Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia facilis nulla tempora aperiam temporibus quam delectus eum! Sunt, repellendus dicta. Sequi obcaecati cumque maxime consequuntur ratione minima, laudantium soluta illo, vitae commodi reprehenderit, quisquam voluptate enim consectetur minus praesentium.
                 </p>
               </div>
             </div>
@@ -145,11 +138,10 @@ export default function Home() {
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-extrabold title-font text-gray-900 mb-1 text-xl">
-                  Neptune
+                  Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto reiciendis similique, aut aperiam accusantium, culpa, autem natus velit est dolores asperiores. Nisi nesciunt suscipit unde quod consectetur officia recusandae expedita nobis animi quas quidem placeat hic repellat aut, asperiores facere?
                 </p>
               </div>
             </div>
@@ -169,8 +161,8 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/200x200"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center h-80 "
+                  src="Docx.jpg"
                 />
               </div>
             </div>
@@ -178,8 +170,8 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/201x201"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center h-80 "
+                  src="Docx.jpg"
                 />
               </div>
             </div>
@@ -187,8 +179,8 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/202x202"
+                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center h-80 "
+                  src="Docx.jpg"
                 />
               </div>
             </div>
@@ -196,8 +188,8 @@ export default function Home() {
               <div className="h-full flex flex-col items-center text-center">
                 <img
                   alt="team"
-                  className="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4"
-                  src="https://dummyimage.com/203x203"
+                  className="flex-shrink-0 rounded-lg w-full h-80 object-cover object-center"
+                  src="Docx.jpg"
                 />
               </div>
             </div>
@@ -209,7 +201,7 @@ export default function Home() {
         <div className="container px-5 pb-8 mx-auto">
           <div className="flex flex-col text-center w-full mb-16">
             <h1 className="sm:text-3xl text-4xl font-extrabold capitalize title-font mb-4 text-gray-900">
-              Progress
+              Happy Users
             </h1>
           </div>
           <div className="flex flex-wrap -m-4 text-center">
@@ -228,7 +220,7 @@ export default function Home() {
                   <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  2.7K
+                  3K
                 </h2>
                 <p className="leading-relaxed">Downloads</p>
               </div>
@@ -249,7 +241,7 @@ export default function Home() {
                   <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  1.3K
+                  1K
                 </h2>
                 <p className="leading-relaxed">Users</p>
               </div>
@@ -269,7 +261,7 @@ export default function Home() {
                   <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  74
+                  70
                 </h2>
                 <p className="leading-relaxed">Files</p>
               </div>
@@ -288,7 +280,7 @@ export default function Home() {
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
                 </svg>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
-                  46
+                  50
                 </h2>
                 <p className="leading-relaxed">Places</p>
               </div>
