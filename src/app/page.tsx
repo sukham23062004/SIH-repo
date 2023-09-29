@@ -1,8 +1,9 @@
 import { DiYeoman } from "react-icons/di";
 import { AiOutlineCloudUpload, AiOutlineCloudDownload } from "react-icons/ai";
 import { BsInstagram, BsFacebook, BsGithub, BsTwitter } from "react-icons/bs";
+import {FaLanguage} from 'react-icons/fa'
 import login from "./login/page";
-
+import "./page.css"
 export default function Home() {
   return (
     <div className="flex flex-col bg-white">
@@ -39,10 +40,16 @@ export default function Home() {
               Lorem, ipsum dolor.
             </h1>
             <p className="mb-8 leading-relaxed">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos consequuntur quibusdam animi doloribus aliquam asperiores sapiente beatae obcaecati dolor sint eveniet ab nihil laborum voluptas, soluta corporis neque perferendis voluptates quaerat enim libero nisi harum, quod aliquid. Porro veritatis, consectetur laboriosam perferendis, quam atque perspiciatis officiis repudiandae sit labore vero?
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos
+              consequuntur quibusdam animi doloribus aliquam asperiores sapiente
+              beatae obcaecati dolor sint eveniet ab nihil laborum voluptas,
+              soluta corporis neque perferendis voluptates quaerat enim libero
+              nisi harum, quod aliquid. Porro veritatis, consectetur laboriosam
+              perferendis, quam atque perspiciatis officiis repudiandae sit
+              labore vero?
             </p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">
+            <div className="flex Responsive gap-4 justify-center">
+              <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 justify-center items-center focus:outline-none hover:bg-purple-600 rounded text-lg">
                 <label className="flex flex-row">
                   <div className="flex items-center mr-2">
                     <AiOutlineCloudUpload></AiOutlineCloudUpload>
@@ -51,7 +58,16 @@ export default function Home() {
                   <input type="file" className="hidden" />
                 </label>
               </button>
-              <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg ml-5">
+              <select className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 justify-center items-center focus:outline-none hover:bg-purple-600 rounded text-lg">
+                <option>Select Language</option>
+                <option>Hindi</option>
+                <option>Marathi</option>
+                <option>Bengali</option>
+                <option>Gujarati</option>
+                <option>Tamil</option>
+                <option>Telugu</option>
+              </select>
+              <button className="inline-flex text-white bg-purple-500 border-0 py-2 px-6 justify-center items-center focus:outline-none hover:bg-purple-600 rounded text-lg">
                 <label className="flex flex-row">
                   <div className="flex items-center mr-2">
                     <AiOutlineCloudDownload></AiOutlineCloudDownload>
@@ -60,7 +76,6 @@ export default function Home() {
                 </label>
               </button>
             </div>
-            <div>{/* DropDown Menu */}</div>
           </div>
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
             <img
@@ -87,7 +102,12 @@ export default function Home() {
                   Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid perspiciatis delectus qui autem dolor facilis illum. Aut sunt, provident odio officiis exercitationem facilis aliquam repellat doloremque minus mollitia enim eveniet, et perferendis, dicta facere nulla! Blanditiis quis et fugiat esse.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aliquid perspiciatis delectus qui autem dolor facilis illum.
+                  Aut sunt, provident odio officiis exercitationem facilis
+                  aliquam repellat doloremque minus mollitia enim eveniet, et
+                  perferendis, dicta facere nulla! Blanditiis quis et fugiat
+                  esse.
                 </p>
               </div>
             </div>
@@ -105,7 +125,12 @@ export default function Home() {
                   Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore modi laborum iste non! Modi dicta architecto atque molestias eaque aspernatur labore voluptas nesciunt laboriosam! Quidem, labore aut sit odit minus quibusdam ratione nostrum eos nulla officiis, quia, vitae consequatur excepturi!
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Tempore modi laborum iste non! Modi dicta architecto atque
+                  molestias eaque aspernatur labore voluptas nesciunt
+                  laboriosam! Quidem, labore aut sit odit minus quibusdam
+                  ratione nostrum eos nulla officiis, quia, vitae consequatur
+                  excepturi!
                 </p>
               </div>
             </div>
@@ -123,7 +148,12 @@ export default function Home() {
                   Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officia facilis nulla tempora aperiam temporibus quam delectus eum! Sunt, repellendus dicta. Sequi obcaecati cumque maxime consequuntur ratione minima, laudantium soluta illo, vitae commodi reprehenderit, quisquam voluptate enim consectetur minus praesentium.
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Similique officia facilis nulla tempora aperiam temporibus
+                  quam delectus eum! Sunt, repellendus dicta. Sequi obcaecati
+                  cumque maxime consequuntur ratione minima, laudantium soluta
+                  illo, vitae commodi reprehenderit, quisquam voluptate enim
+                  consectetur minus praesentium.
                 </p>
               </div>
             </div>
@@ -141,7 +171,12 @@ export default function Home() {
                   Lorem, ipsum dolor.
                 </h2>
                 <p className="leading-relaxed">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto reiciendis similique, aut aperiam accusantium, culpa, autem natus velit est dolores asperiores. Nisi nesciunt suscipit unde quod consectetur officia recusandae expedita nobis animi quas quidem placeat hic repellat aut, asperiores facere?
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Iusto reiciendis similique, aut aperiam accusantium, culpa,
+                  autem natus velit est dolores asperiores. Nisi nesciunt
+                  suscipit unde quod consectetur officia recusandae expedita
+                  nobis animi quas quidem placeat hic repellat aut, asperiores
+                  facere?
                 </p>
               </div>
             </div>

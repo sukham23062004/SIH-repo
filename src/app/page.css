@@ -1,0 +1,10 @@
+.Responsive{
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width:768px){
+    .Responsive{
+        flex-direction: column;
+        margin: none;
+    };
+}
